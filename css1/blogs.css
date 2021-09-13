@@ -221,6 +221,7 @@ a{
 }
 .comment .comment-img img{
     border-radius: 2%;
+    width: 100%;
 
 }
 .comment .comment-content{

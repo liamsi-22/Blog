@@ -24,8 +24,12 @@ a{
     text-decoration: none;
 }
 .hover-opacity:hover{
-    opacity: 0.6;
+    opacity: 0.8;
     transition: opacity .5s;
+}
+input:focus{
+    outline: 1px solid #6195ff;
+    margin-top: 1px;
 }
 
 /* Header Section */
@@ -144,15 +148,21 @@ a{
   
 
 /* Center-content */
-.blogs-wdt{
+
+/* Item left */ 
+
+.blogs-wdt-center{
     width: 90%;
     margin: auto;
 }
 .blogs-content .item-left{
     width: 70%;
+    float: left;
 }
 .blogs-content .item-right{
     width: 30%;
+    float: right;
+    text-align: left;
 }
 .blogs-content .item-left img{
     width: 100%;
@@ -264,7 +274,6 @@ a{
     line-height: 1.5;
 }
 
-
 .item-left .comment-header{
     position: relative;
     margin-bottom: 40px;
@@ -363,6 +372,215 @@ a{
 .first-comments.mg .header{
     color:#6195ff ;
 }
+
+/* Item right */
+.blogs-wdt-right{
+    margin: auto;
+    width: 80%;
+}
+.item-right .input{
+    width: 100%;
+    position: relative;
+}
+.input input{
+    width: 100%;
+    padding: 10px 10px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    border-radius: 2%;
+}
+
+.input .link{
+    position: absolute;
+    display: inline-block;
+    color: #6195ff;
+    width: 20px;
+    height: 20px;
+    top: 20%;
+    right: 5%;
+}
+.item-right .input .link .icon{
+    line-height: 20px;
+}
+ 
+.category-header .up-header{
+    text-transform: uppercase;
+    margin: 35px 0 ;
+    padding-left: 5px ;
+    position: relative;
+}
+.category-header .up-header::after{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 40px;
+    background-color: #6195ff;
+    border-radius: 20px;
+    bottom: -15px;
+    left: 3%;
+}
+
+.category-list .list{
+    text-transform: capitalize;
+    padding-left: 5px;
+    color: rgb(97, 97, 97);
+    overflow: hidden;
+    padding: 10px 0 10px 5px;
+    border-top: 1px solid #cfcece;
+}
+.category-list .list.bottom{
+    border-bottom: 1px solid #cfcece;
+}
+.category-list  .list-mg{
+   float: left;
+}
+
+.category-list .link{
+    color: #6195ff;
+    float: right;
+}
+.pupulare-posts-header .up-header{
+    text-transform: uppercase;
+    padding-left: 5px ;
+    position: relative;
+    margin: 35px 0;
+}
+.pupulare-posts-header .up-header::after{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 40px;
+    background-color: #6195ff;
+    border-radius: 20px;
+    bottom: -15px;
+    left: 3%;
+}
+.category-content{
+    margin-bottom:35px ;
+}
+.category-content-item{
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.category-content-item .category-img{
+    float: left;
+    width: 35%;
+}
+.category-content-item .category-img img{
+    width: 100%;
+}
+
+.category-content-item .img-content{
+    float: left;
+    width: 65%;
+    padding-left:8px ;
+}
+.category-content-item .img-content .h4{
+    margin-bottom: 6px;
+}
+.category-content-item .img-content .span a{
+    color: #6195ff;
+}
+
+.tags-header .up-header{
+    text-transform: uppercase;
+    padding-left: 5px ;
+    position: relative;
+    margin: 35px 0;
+}
+
+.tags-header .up-header::after{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 40px;
+    background-color: #6195ff;
+    border-radius: 20px;
+    bottom: -15px;
+    left: 3%;
+}
+.tags-content a{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(245, 245, 245);
+    margin: 0 2px;
+    color: black;
+}
+
+/* reply */
+.reply-header{
+    text-align: center;
+}
+.reply-header .up-header{
+    text-transform: capitalize;
+    padding-left: 5px ;
+    position: relative;
+    margin: 45px 0;
+}
+.reply-header .up-header::after{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 80px;
+    background-color: #6195ff;
+    border-radius: 20px;
+    bottom: -15px;
+    left: 46%;
+}
+.reply-input{
+    width: 60%;
+    margin: auto;
+}
+.reply .input-one{
+    width: 49%;
+    padding: 8px 8px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+}
+.reply .input-one.mg{
+    margin-left: 1%;
+
+}
+.reply .input-two{
+    border: none;
+    display: block;
+    padding: 8px 8px;
+    width: 100%;
+    margin-top: 15px;
+    padding:5px 5px 60px 5px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 2%;
+}
+.reply-button{
+    border: none;
+    margin-top: 30px;
+}
+.reply-button .link{
+    display: inline-block;
+    color: #ffffff;
+    padding: 12px 37px;
+    background-color: #6195ff;
+    font-size: large;
+    text-transform: capitalize;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
